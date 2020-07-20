@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_scan1"
+        android:title="Scan QR"
+        android:icon="@drawable/scan"
+        />
+    <item
+        android:id="@+id/menu_create"
+        android:title="Create"
+        android:icon="@drawable/ic_person_black_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_scancard"
+        android:title="Scan B card"
+        android:icon="@drawable/scan_b_card" />
+    <item
+        android:id="@+id/menu_grps"
+        android:title="Groups"
+        android:icon="@drawable/ic_group"
+        />
+
+    <item
+        android:id="@+id/menu_fvrt"
+        android:title="Favourite"
+        android:icon="@drawable/fvrt" />
+</menu>

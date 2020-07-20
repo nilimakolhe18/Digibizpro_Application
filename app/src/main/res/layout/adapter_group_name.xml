@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutgrpnm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/group_delet_shape"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/imgback"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_group_icon"
+            android:src="@drawable/ic_group_icon"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtaddgrp"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:focusable="false"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Group1"
+            android:textAlignment="center"
+            android:textColor="#32729A"
+            android:textColorHint="#32729A"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/imgnext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_next_arrow_group"
+            android:src="@drawable/ic_group_icon"></LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

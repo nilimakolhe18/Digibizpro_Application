@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digibizpro_application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.digibizpro_application.Sign_In_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Mpin_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Welcome_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.User_ID_SignUpActivity"></activity>
+        <activity android:name="com.example.digibizpro_application.Enter_USerID_OTP_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Forgot_Password_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Get_User_ID_OTP_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Set_New__UserID_Password"></activity>
+        <activity android:name="com.example.digibizpro_application.Forgot_Mpin_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Set_New__Mpin_Password"></activity>
+        <activity android:name="com.example.digibizpro_application.Get_MPIN_OTP_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.Dashboard_1"></activity>
+        <activity android:name="com.example.digibizpro_application.ScanActivity"></activity>
+        <activity android:name="com.example.digibizpro_application.Create_Activity"></activity>
+        <activity android:name="com.example.digibizpro_application.ScanBCard"></activity>
+        <activity android:name="com.example.digibizpro_application.Start_Trial"></activity>
+        <activity android:name="com.example.digibizpro_application.SearchCards"></activity>
+        <activity android:name="com.example.digibizpro_application.SaveButtonActivity"></activity>
+        <activity android:name="com.example.digibizpro_application.DeleteGroup_Activity"></activity>
+        <activity
+            android:name="com.example.digibizpro_application.Pop_up_Dashboard1"
+            android:theme="@style/Theme.Transparent"></activity>
+    </application>
+
+</manifest>

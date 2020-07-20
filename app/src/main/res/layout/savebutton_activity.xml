@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/toolbar_shape">
+
+        <ImageView
+            android:id="@+id/imageback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"></ImageView>
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Kotibhaskar Shrikotib"
+
+            android:textColor="#ffffff"
+            android:textSize="20dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:src="@drawable/ic_edit"></ImageView>
+
+            <ImageView
+                android:id="@+id/imgflashlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/ic_more" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="328dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="9dp"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_person_name_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Abdul Kalam"
+                android:id="@+id/txtname"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mobile_number_save"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="+91 9192222222"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:id="@+id/txtphnumber"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#32729A"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_whatsup_mobile_number_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="+91 9122222222"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:id="@+id/txtwhatsupno"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_email_id_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kalam@gmail.com"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:id="@+id/txt_email"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_website_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="www.google.com"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_address_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Abdul Kalam"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtaddress"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_work_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Abdul Kalam"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:id="@+id/txtwork"
+
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_note_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:hint="Abdul Kalam"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:id="@+id/txtnote"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_group_save"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Abdul Kalam"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#32729A"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

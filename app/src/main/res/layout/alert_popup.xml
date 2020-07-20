@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="25dp"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l11"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginTop="4dp"
+        android:text="Add Group"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#285B7A"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="192dp"
+        android:textSize="21dp"></TextView>
+
+        <EditText
+            android:id="@+id/edt_entergrpnm"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:hint="Add group name here"
+            android:textColor="#979494"
+            android:textColorHint="#979494" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:layout_below="@+id/l11"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Cancle"
+            android:textColor="#32729A"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="9dp"
+            android:id="@+id/btncancle"
+            android:paddingBottom="9dp"
+            android:background="@drawable/button_cancle_grp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="SAve"
+            android:textColor="#ffffff"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:id="@+id/btn_save"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:background="@drawable/button_save_grp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

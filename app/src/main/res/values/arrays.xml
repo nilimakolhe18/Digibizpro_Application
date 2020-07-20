@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phone_spinner">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Main</item>
+        <item>Work fax</item>
+    </string-array>
+
+    <string-array name="email_spinner">
+    <item>Mobile</item>
+    <item>Home</item>
+    <item>Work</item>
+    <item>Main</item>
+    <item>Work fax</item>
+    </string-array>
+
+    <string-array name="name_spinner">
+        <item>Name</item>
+        <item>Prefix</item>
+        <item>First</item>
+        <item>Middle</item>
+        <item>Last</item>
+    </string-array>
+
+
+</resources>
